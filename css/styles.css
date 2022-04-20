@@ -29,6 +29,18 @@ nav {
 
 .margins_main {
     margin-top: 15px;
+    background-image: url("../img/old_cars.jpg");
+    width: 1200px;
+    height: 442px;
+    display: flex;
+    justify-content: center;
+}
+
+.margins_main span {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 100px;
 }
 
 .articles_list {
