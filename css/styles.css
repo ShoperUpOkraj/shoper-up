@@ -1,96 +1,73 @@
-body {
-    max-width: 1200px;
-    margin: auto;
+.screen {
+    max-width: 600px;
+    margin: 0px auto;
     font-family: "Poppins";
-}
-
-header {
-    margin-top: 15px;
+    border: 10px solid black;
+    border-bottom: 50px solid black;
+    border-radius: 10px;
 }
 
 .body_header {
-    border-top: 1px solid black; 
-    border-bottom: 8px double green;
+    background-color: rgb(204, 184, 71);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.body_header .settings {
+    order: 3;
 }
 
 .body_header h1 {
+    font-size: 40px;
     margin: 0px;
-    padding: 10px;
-    font-size: 30px;
-    font-weight: 600;
 }
 
-main {
-    margin-top: 10px;
-}
-
-.body_main {
-    display: flex;
-}
-
-.container {
-    flex-grow: 1;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 0px 3px;
-}
-
-.container_header {
-
-    height: 100px;
-    border-bottom: 1px solid black;
-    display: flex;
-    align-items: center;
-}
-
-.container_header h2 {
-    margin: 0px;
-    margin-left: 20px;
-    padding-left: 10px;
-    font-size: 20px;
-    font-weight: 300;
-    height: 30px;
-    width: 150px;
+.nav_button {
+    border: 0px;
     background-color: rgb(255,255,255, 0.5);
+    font-size: 20px;
+    padding: 6px;
 }
 
-.owoce_img {
-    background-image: url("../img/owoce.jpg");
+.nav_button:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
 }
 
-.warzywa_img {
-    background-image: url("../img/warzywa.jpg");
+.scroll_container {
+    padding: 15px;
+    overflow: scroll;
+    height: 500px;
 }
 
-.nabial_img {
-    background-image: url("../img/nabial.jpg");
+.body_footer {
+    display: flex;
+    height: 100px;
+    background-color: rgb(204, 184, 71);
 }
 
-.container_main {
-    height: 170px;
-    border-bottom: 1px solid black;
-    padding-left: 30px;
+.footer_button {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid rgb(173, 136, 11);
+}
+
+.footer_button:first-of-type {
+    border-left: 0px;
+}
+
+.footer_button:hover {
+    border-bottom: 10px solid rgb(173, 136, 11);
+    transition-duration: 0.3s;
+}
+
+.button_label {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
-.container_main li:hover {
-    color: red;
-}
-
-.container_footer {
-    height: 40px;
-    background-color: green;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-right: 10px;
-}
-
-.container_footer input {
-    margin-left: 8px;
-}
-
-footer p {
-    padding-left: 20px;
-}

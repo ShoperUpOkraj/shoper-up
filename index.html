@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pierwsza strona</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;600&family=Poppins:wght@300;600&display=swap" rel="stylesheet"> 
@@ -13,73 +13,55 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <section class="body_header">
-            <h1>Lista zakupów</h1>
-        </section>
-    </header>
-    <main>
-        <section class="body_main">
-            <div class="container">
-                <div class="container_header owoce_img">
-                    <h2>OWOCE</h2>
+    <section class="screen">
+        <header>
+            <section class="body_header">
+                <button class="nav_button back">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                    Back
+                </button>
+                <button class="nav_button settings">
+                    <i class="fa-solid fa-gear"></i>
+                </button>
+                <h1>FlexBox App</h1>
+            </section>
+        </header>
+        <main>
+            <section class="body_main">
+                <div class="scroll_container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ab illo officiis sunt perferendis cum accusamus reprehenderit. Ullam autem mollitia quisquam harum ipsam neque quas quod adipisci voluptates tempora rem dignissimos accusantium repellendus placeat, in perferendis officiis ipsum inventore vero earum amet suscipit minus sunt! Quaerat dignissimos adipisci laudantium reprehenderit cumque nihil odit, qui eaque animi iure totam debitis, magni autem nisi a illo, beatae odio rem molestias! Minima maiores, at, vitae aperiam itaque quaerat atque ut labore dignissimos placeat molestiae qui facilis vero nisi sapiente suscipit eum eligendi</p>
+                    <p> optio veniam officiis iusto quia molestias libero! Architecto natus cum provident, laboriosam voluptas autem excepturi enim quo deserunt error a iste voluptatem est! Vitae reiciendis iusto ipsam hic inventore laboriosam doloribus fugit similique repudiandae odio minus quo laborum nobis illum blanditiis suscipit, delectus, facilis expedita nulla omnis voluptatibus harum esse asperiores est. Incidunt deserunt placeat dolor quod expedita ea error aperiam doloribus perferendis delectus atque molestias harum dignissimos tempore ratione architecto animi, nam asperiores similique quis eveniet. Ipsa, maiores. Sunt, delectus eveniet! Voluptatem unde neque sed nisi autem quibusdam ipsum, sunt voluptas dolore, necessitatibus nemo tempore fuga? Quo dolorem quae recusandae pariatur at nobis deserunt nihil, delectus modi nemo, qui corporis?</p>
                 </div>
-                <div class="container_main">
-                    <ul>
-                        <li>Jabłka</li>
-                        <li>Pomarańcze</li>
-                        <li>Kiwi</li>
-                    </ul>
+            </section>
+        </main>
+        <footer>
+            <section class="body_footer">
+                <div class="footer_button">
+                    <div class="button_label">
+                        <i class="fa-solid fa-house-chimney"></i>
+                        <span>home</span>
+                    </div>
                 </div>
-                <div class="container_footer">
-                    <label for="owoce">Owoce kupione</label>
-                    <input type="checkbox" id="owoce">
+                <div class="footer_button">
+                    <div class="button_label">
+                        <i class="fa-solid fa-bell"></i>
+                        <span>notifications</span>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="container_header warzywa_img">
-                    <h2>WARZYWA</h2>
+                <div class="footer_button">
+                    <div class="button_label">
+                        <i class="fa-solid fa-message"></i>
+                        <span>messages</span>
+                    </div>
                 </div>
-                <div class="container_main">
-                    <ul>
-                        <li>Sałata</li>
-                        <li>Ogórek</li>
-                        <ul>
-                            <li>Kiszony</li>
-                            <li>Świeży</li>
-                        </ul>
-                        <li>Marchew</li>
-                    </ul>
+                <div class="footer_button">
+                    <div class="button_label">
+                        <i class="fa-solid fa-user"></i>
+                        <span>user</span>
+                    </div>
                 </div>
-                <div class="container_footer">
-                    <label for="warzywa">Warzywa kupione</label>
-                    <input type="checkbox" id="warzywa">
-                </div>
-            </div>
-            <div class="container">
-                <div class="container_header nabial_img">
-                    <h2>NABIAŁ</h2>
-                </div>
-                <div class="container_main">
-                    <ul>
-                        <li>Mleko</li>
-                        <li>Twaróg</li>
-                        <li>Ser</li>
-                        <ul>
-                            <li>Żółty</li>
-                            <li>Camembert</li>
-                        </ul>
-                    </ul>
-                </div>
-                <div class="container_footer">
-                    <label for="nabial">Nabiał kupiony</label>
-                    <input type="checkbox" id="nabial">
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>Made with <i class="fa fa-heart"></i> 2022</p>
-    </footer>
+            </section>
+        </footer>
+    </section>
 </body>
 </html>
